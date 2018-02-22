@@ -15,5 +15,6 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	fmt.Printf("Temperature is in San Francisco is %g F\n", cond.CurrentObservation.TempF)
+	fmt.Printf("Temperature is in Seattle Washington is %g F\n", cond.CurrentObservation.TempF)
+	fmt.Printf("Temperature is in Seattle Washington is %g C\n", cond.CurrentObservation.TempC)
 }
