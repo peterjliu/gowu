@@ -76,8 +76,8 @@ type CurConditions struct {
 		Weather               string  `json:"weather"`
 		WindDegrees           float64 `json:"wind_degrees"`
 		WindDir               string  `json:"wind_dir"`
-		WindGustKph           string  `json:"wind_gust_kph"`
-		WindGustMph           string  `json:"wind_gust_mph"`
+		WindGustKph           float64 `json:"wind_gust_kph"`
+		WindGustMph           float64 `json:"wind_gust_mph"`
 		WindKph               float64 `json:"wind_kph"`
 		WindMph               float64 `json:"wind_mph"`
 		WindString            string  `json:"wind_string"`
